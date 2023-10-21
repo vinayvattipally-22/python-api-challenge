@@ -1,2 +1,41 @@
-# Adding config.py file.
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Anaconda or virtual environment
+env/
+.venv/
+.env/
+
+# API keys and sensitive information
 api_keys.py
+config.ini
+secrets.ini
+.env
+
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Logs and temporary files
+*.log
+*.log.*
+logs/
+temp/
+
+# Compiled or build files (if applicable)
+build/
+dist/
+*.egg-info/
+
+# Dependency management files
+requirements.txt
+pip-lock.txt
+environment.yml
+
+# The gitignore file is created with the help of chatGPT and https://www.toptal.com/developers/gitignore
